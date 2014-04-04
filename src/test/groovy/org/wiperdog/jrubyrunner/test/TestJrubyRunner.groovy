@@ -57,7 +57,7 @@ public class TestJrubyRunner{
 		// we need "groovy-all" bundle to use this groovy test code.
 		mavenBundle("org.codehaus.groovy", "groovy-all", "2.2.1").startLevel(2),
 		mavenBundle("org.jruby", "jruby-complete", "1.7.10").startLevel(2),
-		mavenBundle("org.wiperdog", "org.wiperdog.directorywatcher", "0.1.1-SNAPSHOT").startLevel(2),
+		mavenBundle("org.wiperdog", "org.wiperdog.directorywatcher", "0.1.0").startLevel(2),
 		mavenBundle("org.wiperdog", "org.wiperdog.jrubyrunner", "1.0").startLevel(3),
 
 		junitBundles()
